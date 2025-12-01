@@ -38,3 +38,6 @@ Phase II (API Interaction)
 
 Phase III (Server and API Interaction)
 
+Note:
+* We need to have a python installer folder for spectific architecture (ARM64,Win,OSX) for container usage.
+
