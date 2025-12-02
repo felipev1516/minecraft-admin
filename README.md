@@ -14,8 +14,6 @@ API
 * List players in server
 * Server Options
 
-
-
 Minecraft Server Options
 
 * Map Selection 
@@ -26,16 +24,19 @@ Minecraft Server Options
 * Reload
 * Stop
 
-
-
 Phase I (Flask API Creation)
 
+Notes:
+Creating a virtual Environment
+python3 -m virtualenv .venv
 
+Activate Virtual Environment
+.venv\Scripts\activate (Use unmodded Powershell)
+
+Install Flask
+pip install Flask
 
 Phase II (API Interaction)
-
-
-
 Phase III (Server and API Interaction)
 
 Note:
