@@ -34,12 +34,13 @@ except ImportError:
 # py -m flask --app __init__.py run
 # Activate the virtual environment first and flask will use the packages from the virtual environment
 # Help: https://stackoverflow.com/questions/31002890/how-to-reference-a-html-template-from-a-different-directory-in-python-flask
+# Help: https://stackoverflow.com/questions/22259847/application-not-picking-up-css-file-flask-python
 
 # Test HTML templates via flask
 app = Flask(__name__,template_folder='templates')
 @app.route('/')
 def home():
-    return render_template('server-list.html')
+    return render_template('server-list-layout.html')
     #return render_template('base.html')
     #return '<h1>Welcome to the Minecraft Server Admin API</h1>'
 
