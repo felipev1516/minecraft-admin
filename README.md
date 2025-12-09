@@ -24,21 +24,37 @@ Minecraft Server Options
 * Reload
 * Stop
 
-Phase I (Flask API Creation)
+**Phase I (HTML/CSS Template Creation)**
 
 Notes:
-Creating a virtual Environment
-python3 -m virtualenv .venv
+* Install Flask (must have pip module on python first)
+  * pip install Flask
+* Creating a virtual Environment
+  * python3 -m virtualenv .venv
+* Run the virtual Envirnment (Make sure .env folder is created)
+  * .\.venv\Scripts\activate (Use unmodded Powershell for windows)
+* Run python_flask application
+  * py -m flask --app 'python_file.py' run
 
-Activate Virtual Environment
-.venv\Scripts\activate (Use unmodded Powershell)
+**Phase II (Script Programming)**
 
-Install Flask
-pip install Flask
+Brainstorm:
+* Securty when accessing secure shells on each servers. (need ssh keys)
+  * Having macOS accept ssh keys might be challenging
+* Create a script to read the following
+  * Does IP Address reach server?
+  * What architecture and OS?
+  * Does the environment has the minecraft server file?
+  * Is java installed?
 
-Phase II (API Interaction)
-Phase III (Server and API Interaction)
+* Contents of containers for servers:
+  * python
+  * java
+  * minecraft server
+  * scripts (if neccessary)
 
-Note:
+**Phase III (Web and Server Interaction)**
+
+**Aditional Notes:**
 * We need to have a python installer folder for spectific architecture (ARM64,Win,OSX) for container usage.
 
