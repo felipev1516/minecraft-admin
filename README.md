@@ -24,7 +24,7 @@ Minecraft Server Options
 * Reload
 * Stop
 
-**Phase I (HTML/CSS Template Creation)**
+<ins>**Phase I (HTML/CSS Template Creation)**</ins>
 
 Notes:
 * Install Flask (must have pip module on python first)
@@ -36,7 +36,7 @@ Notes:
 * Run python_flask application
   * py -m flask --app 'python_file.py' run
 
-**Phase II (Script Programming)**
+<ins>**Phase II (Script Programming)**</ins>
 
 Brainstorm:
 * Securty when accessing secure shells on each servers. (need ssh keys)
@@ -53,7 +53,14 @@ Brainstorm:
   * minecraft server
   * scripts (if neccessary)
 
-**Phase III (Web and Server Interaction)**
+ Other Notes:
+ 
+* VNC for macOS (Thanks to nateware):
+  * <a href="https://gist.github.com/nateware/3915757#file-gistfile1-txt">Github Link</a>
+* Directory for macOS PATH (Z Terminal)
+  * ~/.zshrc
+    
+<ins>**Phase III (Web and Server Interaction)**</ins>
 
 **Aditional Notes:**
 * We need to have a python installer folder for spectific architecture (ARM64,Win,OSX) for container usage.
