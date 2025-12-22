@@ -1,5 +1,7 @@
 # Command to run:  & C:/Users/felip/Downloads/minecraft-admin/API/.venv/Scripts/python.exe -m flask --app c:/Users/felip/Downloads/minecraft-admin/API/main.py run
+# Make sure to be in the API folder when running the command above
 # VS Code Notes: Change the python interpreter to .venv(64/32)\Scripts\python (ctrl _+ shift + p -> select clear python interpreter)
+
 import sys
 import os
 import site
@@ -12,8 +14,8 @@ import site
 # Ideal for server deployments where the architecture is unknown
 
 # Virtual environment paths
-if not (os.path.isdir(os.getcwd() + '\..\.venv_64\LIB\site-packages')):
-    if not (os.path.isdir(os.getcwd() + '\..\.venv_32\LIB\site-packages')):
+if not (os.path.isdir(os.getcwd() + '\..\.env_64\LIB\site-packages')):
+    if not (os.path.isdir(os.getcwd() + '\..\.env_32\LIB\site-packages')):
         print("No virtual environment found. Please create a virtual environment first.")
         sys.exit(1)
     else:
