@@ -5,14 +5,14 @@ const rl = readline.createInterface({
   output: process.stdout
 });
 
-rl.question('Enter server name: ', (answer) => {
+rl.question('', (answer) => {
   //document.getElementById("output").innerText = answer;
-  console.log(`Server name set to: ${answer}`);
+  //console.log(`Server name set to: ${answer}`);
   rl.close();
-  return answer;
+  return console.log(answer);
 }
 );
 
 rl.on('close', () => {
-  console.log('Input closed.');
+  //console.log('Input closed.');
 });
