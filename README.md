@@ -50,6 +50,10 @@
     
   * <code>developer branch</code> will be the on going process of this project
   </p>
+  <h2>Project Management</h2>
+  <p>
+    Jira Workspace Link: <a href="https://valadezf3031.atlassian.net/jira/software/projects/ADMIN/boards/2?atlOrigin=eyJpIjoiZTRiYzZkZmE1ZDViNDZlOGExYjJhMDFhMGM5MTNkZTciLCJwIjoiaiJ9">Admin Project</a>
+  </p>
 </body>
 
 
