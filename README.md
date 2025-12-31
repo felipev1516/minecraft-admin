@@ -1,5 +1,5 @@
 <body>
-  <h1>
+  <h1 align=center>
     Ideal Layout
   </h1>
   <img width="2081" height="1471" alt="full_layout_v1" src="https://github.com/user-attachments/assets/e72f8c55-38e6-44f9-99a8-bfadc733bc33" />
@@ -7,13 +7,13 @@
     Description
   </h2>
   <p>
-    A program that will allow users to deploy applications on servers. This project is called minecraft admin as a test run and a learning opportunity to deploy a multiplayer application server on a in-site computer.
+    This project will be a Service Deployment Portal to allow clients to deploy any microservices of their liking. As of now, the repository is called minecraft admin since it will be forerunner to deploy a Minecraft multiplayer application server on a in-site computer for testing and learning purposes.
   </p>
   <h2>
     Planning
   </h2>
   <p>
-  In this project we will create a web page API to interact with the Minecraft server (mac mini). Web Application will be created in Flask and will use the macOS computer as a host. A container image via Docker will be used to deploy the webpage, database and Minecraft server. Overtime we will maintain this API for future use and develop more features.
+  In this project we will create a web page API to interact with the Minecraft server (mac mini). Web framework we'll use in this project is Flask and have a backend API to commnunicate to a macOS device to deploy the service. A container on Docker will be used to deploy the webpage and database on the host. We will also utilize kubernetes to manage other containers found on other in-site devices for management and deployment. Overtime we will maintain the portal and API for future use and develop more features.
   </p>
   <h3>
     Phase I: Frontend design and implentation
