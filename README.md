@@ -13,7 +13,7 @@
     Planning
   </h2>
   <p>
-  In this project we will create a web page API to interact with the Minecraft server (mac mini). Web framework we'll use in this project is Flask and have a backend API to commnunicate to a macOS device to deploy the service. A container on Docker will be used to deploy the webpage and database on the host. We will also utilize kubernetes to manage other containers found on other in-site devices for management and deployment. Overtime we will maintain the portal and API for future use and develop more features.
+  We are going to utilize the agile methology for our opproach of this project. First we will need to identify all components and divide the tasks into phases for clear direction. Frontend will focus on the creation of the web page and its interation with the API. The API will bridge the end user and server. Backend will focus on getting all the in-site devices to communicate and execute instructions from the main host. We will use Flask as our web framework and have the API to commnunicate to a macOS device to deploy the service. A container on Docker will be used to deploy the webpage and database on the host. We will also utilize kubernetes to manage other containers found on other in-site devices for management and deployment. Overtime we will maintain the portal for future use and offer more features and services.
   </p>
   <h3>
     Phase I: Frontend design and implentation
